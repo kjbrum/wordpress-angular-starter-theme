@@ -1,0 +1,14 @@
+/*
+Theme Name: WordPress Angular Starter Theme
+Theme URI: http://kylebrumm.com/wp-angular-starter-theme
+Author: Kyle Brumm
+Author URI: https://kylebrumm.com
+Description: WordPress Angular starter theme for integrating Angular.js with WordPress.
+Version: 0.1
+Tags: angular, wp rest api. wp json, starter, angular starter
+Text Domain: wp-angular-starter
+*/
+
+body {
+    background: #f5f5f5;
+}
