@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <!-- <base href="/jsonapi/"> -->
         <title>WordPress Angular Starter Theme</title>
         <?php wp_head(); ?>
     </head>
