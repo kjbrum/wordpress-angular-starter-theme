@@ -1,6 +1,6 @@
 <article class="post" ng-repeat="post in posts">
     <h3>
-        <a href="#/{{post.ID}}">{{post.title}}</a>
+        <a href="#/post/{{post.slug}}">{{post.title}}</a>
     </h3>
 
     <p ng-bind-html="post.excerpt | unsafe"></p>

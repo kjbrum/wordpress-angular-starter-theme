@@ -6,7 +6,7 @@ app.config( [ '$routeProvider', function( $routeProvider ) {
             controller: 'PostsController',
             templateUrl: wpapi.views + 'posts.html'
         })
-        .when( '/:id', {
+        .when( '/post/:slug', {
             controller: 'PostController',
             templateUrl: wpapi.views + 'post.html'
         })

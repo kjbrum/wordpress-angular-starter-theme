@@ -1,6 +1,6 @@
 app.factory( 'post', [ '$http', function( $http ) {
-    return function( id ) {
-        return $http.get( 'wp-json/posts/'+id )
+    return function( slug ) {
+        return $http.get( 'wp-json/posts/?filter[name]=' + slug )
             .success( function( data ) {
                 return data;
             })
