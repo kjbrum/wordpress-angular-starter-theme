@@ -1,4 +1,4 @@
-var app = angular.module( 'wpAngularStarter', ['ngRoute'] );
+var app = angular.module( 'wpAngularStarter', ['ngAnimate', 'ngRoute'] );
 
 app.config( [ '$routeProvider', function( $routeProvider ) {
     $routeProvider
