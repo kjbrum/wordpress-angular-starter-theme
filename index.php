@@ -10,7 +10,7 @@
             <h1><a href="<?php echo home_url('#/'); ?>">WordPress Angular Starter Theme</a></h1>
         </header>
 
-        <main ng-view class="fade-in"></main>
+        <main ng-view class="fade-slide"></main>
 
         <?php wp_footer(); ?>
     </body>

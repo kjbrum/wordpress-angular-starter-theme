@@ -9,22 +9,22 @@ Tags: angular, wp rest api. wp json, starter, angular starter
 Text Domain: wp-angular-starter
 */
 
-.fade-in.ng-enter {
+.fade-slide.ng-enter {
     transition: all 0.25s ease-in-out 0.5s;
 }
 
-.fade-in.ng-leave {
+.fade-slide.ng-leave {
     transition: all 0.25s ease-in-out;
 }
 
-.fade-in.ng-enter.ng-enter-active,
-.fade-in.ng-leave {
+.fade-slide.ng-enter.ng-enter-active,
+.fade-slide.ng-leave {
     opacity: 1;
     transform: translateY(0);
 }
 
-.fade-in.ng-enter,
-.fade-in.ng-leave.ng-leave-active {
+.fade-slide.ng-enter,
+.fade-slide.ng-leave.ng-leave-active {
     opacity: 0;
     transform: translateY(-15px);
 }
