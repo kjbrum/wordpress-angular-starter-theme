@@ -9,6 +9,37 @@ Tags: angular, wp rest api. wp json, starter, angular starter
 Text Domain: wp-angular-starter
 */
 
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    line-height: 50px;
+    background: #cccccc;
+    padding: 1rem;
+}
+
+header h1 {
+    float: left;
+    margin: 0;
+}
+
+header .login {
+    float: right;
+}
+
+main {
+    padding-top: 5rem;
+    max-width: 72rem;
+    margin: 0 auto;
+}
+
 .fade-slide.ng-enter {
     transition: all 0.25s ease-in-out 0.5s;
 }
@@ -21,10 +52,12 @@ Text Domain: wp-angular-starter
 .fade-slide.ng-leave {
     opacity: 1;
     transform: translateY(0);
+    max-height: 99999px;
 }
 
 .fade-slide.ng-enter,
 .fade-slide.ng-leave.ng-leave-active {
     opacity: 0;
     transform: translateY(-15px);
+    max-height: 0;
 }
